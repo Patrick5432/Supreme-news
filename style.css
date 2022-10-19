@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: #F5F5F5;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 230px;
+    margin: 0 auto;
+}
+
+.logo-p {
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+}
+
+.text-news {
+    max-width: 700px;
+    padding-top: 62px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text {
+    width: 70%;
+}
+
+.main-text-p{
+    font-size: 20px;
+    padding-top: 24px;
+}
+
+.text-link {
+    padding-top: 20px;
+}
+
+.links:hover {
+    background-color: red;
+    color: white;
+}
+
+.main-text h1 {
+    font-size: 25px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.picture-pages {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.pages {
+    display: flex;
+    margin-left: 100px;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.nav-links {
+    padding-top: 125px;
+    padding-bottom: 60px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link-li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 689px) {
+    .text-news {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logo{
+        width: 100%;
+        max-width: auto;
+    }
+
+    .pages {
+        margin: 0 auto;
+    }
+
+    .main-text {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .text-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .main-text-p {
+        font-size: 17px;
+    }
+
+    .data {
+        font-size: 17px;
+    }
+
+    .main-text h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    .main-text-p {
+        font-size: 17px;
+    }
+
+    .data {
+        font-size: 17px;
+    }
+
+    .main-text h1 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .main-text-p {
+        font-size: 16px;
+    }
+
+    .main-text h1 {
+        font-size: 19px;
+    }
+}
